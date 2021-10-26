@@ -43,6 +43,7 @@ public class AnimalTest {
 
         assertEquals(excepted, actual);
     }
+
     @Test
     public void getFamilyTest(){
         String excepted = "Существует несколько семейств: заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи";
