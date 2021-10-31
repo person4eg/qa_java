@@ -1,5 +1,6 @@
 package com.example;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -9,10 +10,11 @@ import static org.junit.Assert.assertEquals;
 
 public class FelineTest {
 
-    private final Feline feline;
+    private Feline feline;
 
-    public FelineTest() {
-        this.feline = new Feline();
+    @Before
+    public void init() {
+        feline = new Feline();
     }
 
     @Test
